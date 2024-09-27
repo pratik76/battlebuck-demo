@@ -6,3 +6,9 @@
 //
 
 import Foundation
+enum Constant {
+    enum API {
+        static let imageURL = "https://jsonplaceholder.typicode.com/photos"
+        
+    }
+}

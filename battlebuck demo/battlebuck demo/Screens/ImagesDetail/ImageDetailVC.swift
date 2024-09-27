@@ -1,5 +1,5 @@
 //
-//  ImagesVCCollectionViewCell.swift
+//  ImageDetailVC.swift
 //  battlebuck demo
 //
 //  Created by Pratik Choudhary on 27/09/24.
@@ -7,21 +7,17 @@
 
 import UIKit
 
-class ImagesVCCollectionViewCell: UICollectionViewCell {
+class ImageDetailVC: UIViewController {
     @IBOutlet weak var Images : UIImageView!
     @IBOutlet weak var nameLbl : UILabel!
+    var imagesData : ImagesModel?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        imagesConfig()
+    }
    
     
-    var imagesData : ImagesModel? {
-        didSet {
-            imagesConfig()
-        }
-    }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-    func imagesConfig () {
+    func imagesConfig() {
         guard let imagesData else {return}
         nameLbl.text = imagesData.title
 
@@ -29,4 +25,6 @@ class ImagesVCCollectionViewCell: UICollectionViewCell {
             Images.loadImage(from: url, placeholder: UIImage(named: "placeholder"))
         }
     }
+  
+
 }

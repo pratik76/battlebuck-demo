@@ -23,6 +23,10 @@
 		AF47DCBF2CA6873C007A80A5 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCBE2CA6873C007A80A5 /* ImagesModel.swift */; };
 		AF47DCC12CA6877F007A80A5 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC02CA6877F007A80A5 /* ApiManager.swift */; };
 		AF47DCC32CA687C6007A80A5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC22CA687C6007A80A5 /* Constant.swift */; };
+		AF47DCC52CA68A34007A80A5 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC42CA68A34007A80A5 /* EndpointType.swift */; };
+		AF47DCC72CA68A57007A80A5 /* ProjectEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC62CA68A57007A80A5 /* ProjectEndPoint.swift */; };
+		AF47DCC92CA69477007A80A5 /* imageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC82CA69477007A80A5 /* imageDownloadHandler.swift */; };
+		AF47DCCB2CA69B5B007A80A5 /* ImageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCCA2CA69B5B007A80A5 /* ImageDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		AF47DCBE2CA6873C007A80A5 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
 		AF47DCC02CA6877F007A80A5 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		AF47DCC22CA687C6007A80A5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AF47DCC42CA68A34007A80A5 /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		AF47DCC62CA68A57007A80A5 /* ProjectEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEndPoint.swift; sourceTree = "<group>"; };
+		AF47DCC82CA69477007A80A5 /* imageDownloadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownloadHandler.swift; sourceTree = "<group>"; };
+		AF47DCCA2CA69B5B007A80A5 /* ImageDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,7 @@
 		AF47DCA82CA684BE007A80A5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				AF47DCC82CA69477007A80A5 /* imageDownloadHandler.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -163,6 +172,8 @@
 		AF47DCAA2CA684C4007A80A5 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				AF47DCC42CA68A34007A80A5 /* EndpointType.swift */,
+				AF47DCC62CA68A57007A80A5 /* ProjectEndPoint.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -206,6 +217,7 @@
 		AF47DCAF2CA685C1007A80A5 /* ImagesDetail */ = {
 			isa = PBXGroup;
 			children = (
+				AF47DCCA2CA69B5B007A80A5 /* ImageDetailVC.swift */,
 			);
 			path = ImagesDetail;
 			sourceTree = "<group>";
@@ -368,8 +380,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF47DCC52CA68A34007A80A5 /* EndpointType.swift in Sources */,
 				AF47DCC12CA6877F007A80A5 /* ApiManager.swift in Sources */,
+				AF47DCC92CA69477007A80A5 /* imageDownloadHandler.swift in Sources */,
+				AF47DCC72CA68A57007A80A5 /* ProjectEndPoint.swift in Sources */,
 				AF47DCBD2CA68733007A80A5 /* ImagesViewModel.swift in Sources */,
+				AF47DCCB2CA69B5B007A80A5 /* ImageDetailVC.swift in Sources */,
 				AF47DCC32CA687C6007A80A5 /* Constant.swift in Sources */,
 				AF47DCBF2CA6873C007A80A5 /* ImagesModel.swift in Sources */,
 				AF47DCB62CA686E8007A80A5 /* ImagesVC.swift in Sources */,
