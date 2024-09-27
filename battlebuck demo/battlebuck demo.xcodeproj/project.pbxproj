@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF47DC772CA68405007A80A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC762CA68405007A80A5 /* AppDelegate.swift */; };
+		AF47DC792CA68405007A80A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC782CA68405007A80A5 /* SceneDelegate.swift */; };
+		AF47DC7B2CA68405007A80A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC7A2CA68405007A80A5 /* ViewController.swift */; };
+		AF47DC7E2CA68405007A80A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF47DC7D2CA68405007A80A5 /* Base */; };
+		AF47DC802CA68407007A80A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF47DC7F2CA68407007A80A5 /* Assets.xcassets */; };
+		AF47DC832CA68407007A80A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF47DC822CA68407007A80A5 /* Base */; };
+		AF47DC8E2CA68407007A80A5 /* battlebuck_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC8D2CA68407007A80A5 /* battlebuck_demoTests.swift */; };
+		AF47DC982CA68407007A80A5 /* battlebuck_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC972CA68407007A80A5 /* battlebuck_demoUITests.swift */; };
+		AF47DC9A2CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF47DC8A2CA68407007A80A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF47DC6B2CA68405007A80A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF47DC722CA68405007A80A5;
+			remoteInfo = "battlebuck demo";
+		};
+		AF47DC942CA68407007A80A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF47DC6B2CA68405007A80A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF47DC722CA68405007A80A5;
+			remoteInfo = "battlebuck demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF47DC732CA68405007A80A5 /* battlebuck demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "battlebuck demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF47DC762CA68405007A80A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF47DC782CA68405007A80A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF47DC7A2CA68405007A80A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF47DC7D2CA68405007A80A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF47DC7F2CA68407007A80A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF47DC822CA68407007A80A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF47DC842CA68407007A80A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF47DC892CA68407007A80A5 /* battlebuck demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "battlebuck demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF47DC8D2CA68407007A80A5 /* battlebuck_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battlebuck_demoTests.swift; sourceTree = "<group>"; };
+		AF47DC932CA68407007A80A5 /* battlebuck demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "battlebuck demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF47DC972CA68407007A80A5 /* battlebuck_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battlebuck_demoUITests.swift; sourceTree = "<group>"; };
+		AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battlebuck_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF47DC702CA68405007A80A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC862CA68407007A80A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC902CA68407007A80A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF47DC6A2CA68405007A80A5 = {
+			isa = PBXGroup;
+			children = (
+				AF47DC752CA68405007A80A5 /* battlebuck demo */,
+				AF47DC8C2CA68407007A80A5 /* battlebuck demoTests */,
+				AF47DC962CA68407007A80A5 /* battlebuck demoUITests */,
+				AF47DC742CA68405007A80A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF47DC742CA68405007A80A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DC732CA68405007A80A5 /* battlebuck demo.app */,
+				AF47DC892CA68407007A80A5 /* battlebuck demoTests.xctest */,
+				AF47DC932CA68407007A80A5 /* battlebuck demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF47DC752CA68405007A80A5 /* battlebuck demo */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DC762CA68405007A80A5 /* AppDelegate.swift */,
+				AF47DC782CA68405007A80A5 /* SceneDelegate.swift */,
+				AF47DC7A2CA68405007A80A5 /* ViewController.swift */,
+				AF47DC7C2CA68405007A80A5 /* Main.storyboard */,
+				AF47DC7F2CA68407007A80A5 /* Assets.xcassets */,
+				AF47DC812CA68407007A80A5 /* LaunchScreen.storyboard */,
+				AF47DC842CA68407007A80A5 /* Info.plist */,
+			);
+			path = "battlebuck demo";
+			sourceTree = "<group>";
+		};
+		AF47DC8C2CA68407007A80A5 /* battlebuck demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DC8D2CA68407007A80A5 /* battlebuck_demoTests.swift */,
+			);
+			path = "battlebuck demoTests";
+			sourceTree = "<group>";
+		};
+		AF47DC962CA68407007A80A5 /* battlebuck demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DC972CA68407007A80A5 /* battlebuck_demoUITests.swift */,
+				AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */,
+			);
+			path = "battlebuck demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF47DC722CA68405007A80A5 /* battlebuck demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF47DC9D2CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demo" */;
+			buildPhases = (
+				AF47DC6F2CA68405007A80A5 /* Sources */,
+				AF47DC702CA68405007A80A5 /* Frameworks */,
+				AF47DC712CA68405007A80A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "battlebuck demo";
+			productName = "battlebuck demo";
+			productReference = AF47DC732CA68405007A80A5 /* battlebuck demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF47DC882CA68407007A80A5 /* battlebuck demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF47DCA02CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demoTests" */;
+			buildPhases = (
+				AF47DC852CA68407007A80A5 /* Sources */,
+				AF47DC862CA68407007A80A5 /* Frameworks */,
+				AF47DC872CA68407007A80A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF47DC8B2CA68407007A80A5 /* PBXTargetDependency */,
+			);
+			name = "battlebuck demoTests";
+			productName = "battlebuck demoTests";
+			productReference = AF47DC892CA68407007A80A5 /* battlebuck demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF47DC922CA68407007A80A5 /* battlebuck demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF47DCA32CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demoUITests" */;
+			buildPhases = (
+				AF47DC8F2CA68407007A80A5 /* Sources */,
+				AF47DC902CA68407007A80A5 /* Frameworks */,
+				AF47DC912CA68407007A80A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF47DC952CA68407007A80A5 /* PBXTargetDependency */,
+			);
+			name = "battlebuck demoUITests";
+			productName = "battlebuck demoUITests";
+			productReference = AF47DC932CA68407007A80A5 /* battlebuck demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF47DC6B2CA68405007A80A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF47DC722CA68405007A80A5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AF47DC882CA68407007A80A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AF47DC722CA68405007A80A5;
+					};
+					AF47DC922CA68407007A80A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AF47DC722CA68405007A80A5;
+					};
+				};
+			};
+			buildConfigurationList = AF47DC6E2CA68405007A80A5 /* Build configuration list for PBXProject "battlebuck demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF47DC6A2CA68405007A80A5;
+			productRefGroup = AF47DC742CA68405007A80A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF47DC722CA68405007A80A5 /* battlebuck demo */,
+				AF47DC882CA68407007A80A5 /* battlebuck demoTests */,
+				AF47DC922CA68407007A80A5 /* battlebuck demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF47DC712CA68405007A80A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF47DC802CA68407007A80A5 /* Assets.xcassets in Resources */,
+				AF47DC832CA68407007A80A5 /* Base in Resources */,
+				AF47DC7E2CA68405007A80A5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC872CA68407007A80A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC912CA68407007A80A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF47DC6F2CA68405007A80A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF47DC7B2CA68405007A80A5 /* ViewController.swift in Sources */,
+				AF47DC772CA68405007A80A5 /* AppDelegate.swift in Sources */,
+				AF47DC792CA68405007A80A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC852CA68407007A80A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF47DC8E2CA68407007A80A5 /* battlebuck_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF47DC8F2CA68407007A80A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF47DC9A2CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift in Sources */,
+				AF47DC982CA68407007A80A5 /* battlebuck_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF47DC8B2CA68407007A80A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF47DC722CA68405007A80A5 /* battlebuck demo */;
+			targetProxy = AF47DC8A2CA68407007A80A5 /* PBXContainerItemProxy */;
+		};
+		AF47DC952CA68407007A80A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF47DC722CA68405007A80A5 /* battlebuck demo */;
+			targetProxy = AF47DC942CA68407007A80A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF47DC7C2CA68405007A80A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF47DC7D2CA68405007A80A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF47DC812CA68407007A80A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF47DC822CA68407007A80A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF47DC9B2CA68407007A80A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF47DC9C2CA68407007A80A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF47DC9E2CA68407007A80A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "battlebuck demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF47DC9F2CA68407007A80A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "battlebuck demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF47DCA12CA68407007A80A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/battlebuck demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/battlebuck demo";
+			};
+			name = Debug;
+		};
+		AF47DCA22CA68407007A80A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/battlebuck demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/battlebuck demo";
+			};
+			name = Release;
+		};
+		AF47DCA42CA68407007A80A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "battlebuck demo";
+			};
+			name = Debug;
+		};
+		AF47DCA52CA68407007A80A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.battlebuck-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "battlebuck demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF47DC6E2CA68405007A80A5 /* Build configuration list for PBXProject "battlebuck demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF47DC9B2CA68407007A80A5 /* Debug */,
+				AF47DC9C2CA68407007A80A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF47DC9D2CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF47DC9E2CA68407007A80A5 /* Debug */,
+				AF47DC9F2CA68407007A80A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF47DCA02CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF47DCA12CA68407007A80A5 /* Debug */,
+				AF47DCA22CA68407007A80A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF47DCA32CA68407007A80A5 /* Build configuration list for PBXNativeTarget "battlebuck demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF47DCA42CA68407007A80A5 /* Debug */,
+				AF47DCA52CA68407007A80A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF47DC6B2CA68405007A80A5 /* Project object */;
+}
