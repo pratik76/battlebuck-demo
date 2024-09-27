@@ -16,6 +16,13 @@
 		AF47DC8E2CA68407007A80A5 /* battlebuck_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC8D2CA68407007A80A5 /* battlebuck_demoTests.swift */; };
 		AF47DC982CA68407007A80A5 /* battlebuck_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC972CA68407007A80A5 /* battlebuck_demoUITests.swift */; };
 		AF47DC9A2CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */; };
+		AF47DCB62CA686E8007A80A5 /* ImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCB52CA686E8007A80A5 /* ImagesVC.swift */; };
+		AF47DCBA2CA68714007A80A5 /* ImagesVCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCB82CA68714007A80A5 /* ImagesVCCollectionViewCell.swift */; };
+		AF47DCBB2CA68714007A80A5 /* ImagesVCCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF47DCB92CA68714007A80A5 /* ImagesVCCollectionViewCell.xib */; };
+		AF47DCBD2CA68733007A80A5 /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCBC2CA68733007A80A5 /* ImagesViewModel.swift */; };
+		AF47DCBF2CA6873C007A80A5 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCBE2CA6873C007A80A5 /* ImagesModel.swift */; };
+		AF47DCC12CA6877F007A80A5 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC02CA6877F007A80A5 /* ApiManager.swift */; };
+		AF47DCC32CA687C6007A80A5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF47DCC22CA687C6007A80A5 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		AF47DC932CA68407007A80A5 /* battlebuck demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "battlebuck demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47DC972CA68407007A80A5 /* battlebuck_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battlebuck_demoUITests.swift; sourceTree = "<group>"; };
 		AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battlebuck_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF47DCB52CA686E8007A80A5 /* ImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesVC.swift; sourceTree = "<group>"; };
+		AF47DCB82CA68714007A80A5 /* ImagesVCCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesVCCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF47DCB92CA68714007A80A5 /* ImagesVCCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesVCCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF47DCBC2CA68733007A80A5 /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		AF47DCBE2CA6873C007A80A5 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		AF47DCC02CA6877F007A80A5 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		AF47DCC22CA687C6007A80A5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +113,16 @@
 		AF47DC752CA68405007A80A5 /* battlebuck demo */ = {
 			isa = PBXGroup;
 			children = (
+				AF47DCA62CA68451007A80A5 /* Constant */,
+				AF47DCA82CA684BE007A80A5 /* Extension */,
+				AF47DCAC2CA684C7007A80A5 /* Screens */,
+				AF47DCAD2CA6851B007A80A5 /* StoryBoard */,
+				AF47DCAA2CA684C4007A80A5 /* Utility */,
+				AF47DCAB2CA684C6007A80A5 /* Helper */,
 				AF47DC762CA68405007A80A5 /* AppDelegate.swift */,
 				AF47DC782CA68405007A80A5 /* SceneDelegate.swift */,
 				AF47DC7A2CA68405007A80A5 /* ViewController.swift */,
-				AF47DC7C2CA68405007A80A5 /* Main.storyboard */,
 				AF47DC7F2CA68407007A80A5 /* Assets.xcassets */,
-				AF47DC812CA68407007A80A5 /* LaunchScreen.storyboard */,
 				AF47DC842CA68407007A80A5 /* Info.plist */,
 			);
 			path = "battlebuck demo";
@@ -125,6 +143,97 @@
 				AF47DC992CA68407007A80A5 /* battlebuck_demoUITestsLaunchTests.swift */,
 			);
 			path = "battlebuck demoUITests";
+			sourceTree = "<group>";
+		};
+		AF47DCA62CA68451007A80A5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCC22CA687C6007A80A5 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		AF47DCA82CA684BE007A80A5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AF47DCAA2CA684C4007A80A5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AF47DCAB2CA684C6007A80A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCC02CA6877F007A80A5 /* ApiManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF47DCAC2CA684C7007A80A5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCAF2CA685C1007A80A5 /* ImagesDetail */,
+				AF47DCAE2CA685B1007A80A5 /* Images */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AF47DCAD2CA6851B007A80A5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DC7C2CA68405007A80A5 /* Main.storyboard */,
+				AF47DC812CA68407007A80A5 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AF47DCAE2CA685B1007A80A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCB42CA685E0007A80A5 /* ImagesModel */,
+				AF47DCB32CA685DF007A80A5 /* ImagesViewModel */,
+				AF47DCB02CA685D6007A80A5 /* ImagesView */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AF47DCAF2CA685C1007A80A5 /* ImagesDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImagesDetail;
+			sourceTree = "<group>";
+		};
+		AF47DCB02CA685D6007A80A5 /* ImagesView */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCB52CA686E8007A80A5 /* ImagesVC.swift */,
+				AF47DCB82CA68714007A80A5 /* ImagesVCCollectionViewCell.swift */,
+				AF47DCB92CA68714007A80A5 /* ImagesVCCollectionViewCell.xib */,
+			);
+			path = ImagesView;
+			sourceTree = "<group>";
+		};
+		AF47DCB32CA685DF007A80A5 /* ImagesViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCBC2CA68733007A80A5 /* ImagesViewModel.swift */,
+			);
+			path = ImagesViewModel;
+			sourceTree = "<group>";
+		};
+		AF47DCB42CA685E0007A80A5 /* ImagesModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF47DCBE2CA6873C007A80A5 /* ImagesModel.swift */,
+			);
+			path = ImagesModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF47DC802CA68407007A80A5 /* Assets.xcassets in Resources */,
+				AF47DCBB2CA68714007A80A5 /* ImagesVCCollectionViewCell.xib in Resources */,
 				AF47DC832CA68407007A80A5 /* Base in Resources */,
 				AF47DC7E2CA68405007A80A5 /* Base in Resources */,
 			);
@@ -258,9 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF47DCC12CA6877F007A80A5 /* ApiManager.swift in Sources */,
+				AF47DCBD2CA68733007A80A5 /* ImagesViewModel.swift in Sources */,
+				AF47DCC32CA687C6007A80A5 /* Constant.swift in Sources */,
+				AF47DCBF2CA6873C007A80A5 /* ImagesModel.swift in Sources */,
+				AF47DCB62CA686E8007A80A5 /* ImagesVC.swift in Sources */,
 				AF47DC7B2CA68405007A80A5 /* ViewController.swift in Sources */,
 				AF47DC772CA68405007A80A5 /* AppDelegate.swift in Sources */,
 				AF47DC792CA68405007A80A5 /* SceneDelegate.swift in Sources */,
+				AF47DCBA2CA68714007A80A5 /* ImagesVCCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
