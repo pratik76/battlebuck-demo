@@ -9,11 +9,32 @@ import XCTest
 @testable import battlebuck_demo
 
 final class battlebuck_demoTests: XCTestCase {
-
+    var viewModel: ImagesViewModel!
+    private var expectation: XCTestExpectation!
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        expectation = expectation(description: "Expectation")
     }
 
+
+    func testFetchProducts() {
+        
+        APIManager.shared.request(
+            modelType: [ImagesModel].self,
+            type: EndPoint.imagesData) { response in
+                
+                switch response {
+                case .success(let data):
+                    XCTAssertTrue(!data.isEmpty)
+                 
+                    self.expectation.fulfill()
+                    
+                case .failure(let error):
+                    
+                    XCTFail("API call failed with error: \(error)")
+                }
+            }
+        wait(for: [expectation], timeout: 15.0)
+    }
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
